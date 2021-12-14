@@ -1,0 +1,2 @@
+libconfig-arm.h:247:5:__sys_write	32	static
+libconfig-arm.h:241:5:__sys_readc	16	static

@@ -1,0 +1,4 @@
+mma8451.c:40:5:init_mma	8	static
+mma8451.c:53:6:read_full_xyz	32	static
+mma8451.c:88:6:read_xyz	8	static
+mma8451.c:105:6:convert_xyz_to_roll_pitch	32	static

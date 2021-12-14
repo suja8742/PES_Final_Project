@@ -1,0 +1,7 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+core_cm0plus.h:791:22:NVIC_ClearPendingIRQ	16	static
+core_cm0plus.h:804:22:NVIC_SetPriority	24	static
+switch.c:32:6:PORTD_IRQHandler	8	static
+switch.c:49:6:switch_init	8	static
+switch.c:75:6:get_status_switch	8	static
+switch.c:87:6:clear_switch_flag	8	static

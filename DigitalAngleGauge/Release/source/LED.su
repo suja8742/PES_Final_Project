@@ -1,0 +1,4 @@
+LED.c:37:6:LED_Off	0	static
+LED.c:52:10:Color_Computation	8	static
+LED.c:65:6:LED_Blinker	24	static
+LED.c:99:6:color_control	48	static

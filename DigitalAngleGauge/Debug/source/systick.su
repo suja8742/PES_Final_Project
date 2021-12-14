@@ -1,0 +1,10 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+core_cm0plus.h:756:22:NVIC_DisableIRQ	16	static
+core_cm0plus.h:804:22:NVIC_SetPriority	24	static
+systick.c:36:6:Init_Systick	8	static
+systick.c:51:6:SysTick_Handler	8	static
+systick.c:66:12:now	8	static
+systick.c:77:6:reset_timer	8	static
+systick.c:88:12:get_timer	8	static
+systick.c:99:6:get_systick_interrupt_status	8	static
+systick.c:127:6:delay_systick	24	static

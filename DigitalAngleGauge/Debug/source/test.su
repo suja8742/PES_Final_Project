@@ -1,0 +1,4 @@
+test.c:31:9:i2c_test	8	static
+test.c:46:9:MMA_range_test	16	static
+test.c:70:9:MMA_color_test	16	static
+test.c:89:9:Target_Angle_test	16	static
