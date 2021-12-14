@@ -1,7 +1,7 @@
 /*Filename: DigitalAngle.c
  *File Description: The main file of the project. Implements the state machine for the project.
  *Credit: Alexander Dean and Howdy Pierce
-*/
+ */
 
 
 #include <stdio.h>
@@ -45,15 +45,17 @@ int main(void) {
 	init_mma();		/* init mma peripheral */
 	Init_Systick();
 
-//i2c_test();
-//MMA_range_test(pitch);
-//	MMA_color_test(pitch);
-//	 Target_Angle_test()
+
 
 	while (1)
 	{
-
+#ifdef TEST_ALL			/*Uncomment this macro in test.h */
+		i2c_test();
+		MMA_range_test(pitch);
+		MMA_color_test(pitch);
+		Target_Angle_test(pitch);
+#else
 		state_machine();
-
+#endif
 	}
 }
